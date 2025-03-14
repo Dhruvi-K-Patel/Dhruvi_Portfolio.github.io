@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Reset Styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Blue Square Before Name */
+.blue-square {
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;  /* Space between menu items */
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/* Styling for Navigation Links */
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+  color: blue;
+}
+
+/* Active Link (First Link in Blue) */
+nav ul li:first-child a {
+  color: blue;
+}
+
+
+/* Main Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+/* Profile Card */
+.profile-card {
+  background: #f1e9e2;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+  margin: 10px 0;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: gray;
+}
+
+.social-icons a {
+  margin: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.social-icons a:hover {
+  color: blue;
+}
+
+/* Info Section */
+.info {
+  max-width: 500px;
+}
+
+.info h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: gray;
+}
+
+.info .buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.blue {
+  background: blue;
+  color: white;
+}
+
+.white {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.description {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+  font-size: 14px;
+}
+
+footer a {
+  color: blue;
+}
+
+.contact {
+  display: flex;
+  gap: 40px;
+}
+
+.contact p {
+  margin: 0;
+  text-align: center;
+}
+
+.contact a {
+  margin: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.contact a:hover {
+  color: blue;
+}
